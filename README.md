@@ -4,11 +4,11 @@ This CDK app creates a CodeChecker on your repository.
 What is needed is to fill in the following variables:
 
 # Constant variables
-REPOSITORY_NAME = "my_demo_repo"
-MY_ASSUME_ROLE = "vanzee.cloud/yvo-dev"
-APPROVALS_REQUIRED_MAIN = 1
-TEMPLATES_FOLDER = "cdk.out"
-TEMPLATES_FILE_SUFFIX = "*.template.json"
+REPOSITORY_NAME = "my_demo_repo"  
+MY_ASSUME_ROLE = "vanzee.cloud/yvo-dev"  
+APPROVALS_REQUIRED_MAIN = 1  
+TEMPLATES_FOLDER = "cdk.out"  
+TEMPLATES_FILE_SUFFIX = "*.template.json"  
 
 The repository name where the codechecker is running on.
 Your Assume role which is used to accept approvals from.
